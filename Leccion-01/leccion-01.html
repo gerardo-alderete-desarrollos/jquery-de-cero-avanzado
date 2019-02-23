@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lección 01</title>
-
+    <!-- Importacion de Bootstrap -->
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Importacion de Jquery -->
     <script src="../plugins/jquery.js"></script>
 
     <style>
@@ -21,29 +23,44 @@
 </head>
 
 <body>
-    <ul>
-        <li>Hola 1</li>
-        <li>Hola 2</li>
-        <li>Hola 3</li>
-    </ul>
+    <div class="container">
+        <h1>Lección 01</h1>
+        <ul>
+            <li>Hola 1</li>
+            <li>Hola 2</li>
+            <li>Hola 3</li>
+        </ul>
 
-    <ul>
-        <li>Negrita</li>
-        <li>Negrita</li>
-        <li>Negrita</li>
-    </ul>
+        <ul>
+            <li>Negrita</li>
+            <li>Negrita</li>
+            <li>Negrita</li>
+        </ul>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Campo</th>
+                <th>Campo</th>
+                <th>Campo</th>
+                <th>Campo</th>
+            </tr>
+        </thead>
+    </table>
+
+    <button></button>
+
+    <a href="#">Punto anclaje</a>
+
 </body>
 
+
+
 <script>
-    // jQuery('ul').css('color', 'red');
-
-    // $(document).ready(() => {
-    //     $('ul').addClass('textoVerde');
-    // });
-
     $(() => {
         // $('li:first-child').addClass('textoVerde');
         $('li:last-child').addClass('textoVerde');
+
     });
 </script>
 
